@@ -1,8 +1,7 @@
-package day05;
+package array;
 
 import java.util.Scanner;
 
-import util.ScannerUtil;
 
 // 사용자로부터
 // 국영수 점수를 입력받아
@@ -24,7 +23,7 @@ import util.ScannerUtil;
 // 영어 1회차, 2회차, 3회차
 // 수학 1회차, 2회차, 3회차
 
-public class Ex04Array03 {
+public class Array03 {
     private final static int SIZE = 3;
     private final static int SCORE_MAX = 100;
     public static void main(String[] args) {

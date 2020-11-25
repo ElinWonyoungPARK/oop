@@ -1,4 +1,4 @@
-package day05;
+package array;
 // 2차원 배열
 // 우리가 처음 배웠던 배열은 
 // int의 모음집이었다.
@@ -15,7 +15,7 @@ package day05;
 // 1학년[2][3] 나와!!!
 
 
-public class Ex11Array2D {
+public class Array2D {
     public static void main(String[] args) {
         // 2차원 배열은
         // 데이터타입[][] 배열이름 = new 데이터타입[배열의 갯수][배열 안의 칸수]

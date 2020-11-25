@@ -1,7 +1,5 @@
-package util;
+package array;
 
-import day06.Student;
-import day07.Board;
 
 // 배열을 사용하는데 도움이 되는 메소드를 모아둔
 // ArrayUtil 클래스

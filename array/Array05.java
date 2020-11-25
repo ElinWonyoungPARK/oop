@@ -1,8 +1,7 @@
-package day06;
+package array;
 
 import java.util.Scanner;
 
-import util.ScannerUtil;
 
 // 사용자로부터
 // 1~5 반의 학생수를 받고
@@ -16,7 +15,7 @@ import util.ScannerUtil;
 // 1번: 몇점
 // .....
 // 이런식으로 출력되게 프로그램을 작성하시오.
-public class Ex02Array02 {
+public class Array05 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[][] scoreArray = new int[5][];

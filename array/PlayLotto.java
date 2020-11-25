@@ -1,10 +1,8 @@
-package day05;
+package array;
 
 import java.util.Random;
 import java.util.Scanner;
 
-import util.ArrayUtil;
-import util.ScannerUtil;
 
 // 로또 게임해보기
 // 사용자가 숫자를 선택해서
@@ -16,7 +14,7 @@ import util.ScannerUtil;
 // 이 출력되는 프로그램을 작성하시오.
 // 단 사용자가 숫자를 선택할 때에는
 // 불가능한 번호나 중복된 번호는 입력할 수 없게 프로그램을 작성하시오
-public class Ex10PlayLotto {
+public class PlayLotto {
     private static final int SIZE = 6;
     private static final int MAX = 45;
     public static void main(String[] args) {

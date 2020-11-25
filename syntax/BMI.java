@@ -1,9 +1,9 @@
-package day02;
+package syntax;
 // 사용자로부터 키와 몸무게를 입력 받아서 BMI 를 계산하여 출력하는
 // 프로그램을 작성하시오
 // BMI는 몸무게(kg) / 키(m) / 키(m) 입니다. (45분까지)
 import java.util.Scanner;
-public class Ex08BMI {
+public class BMI {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         

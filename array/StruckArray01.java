@@ -1,8 +1,7 @@
-package day06;
+package array;
 
 import java.util.Scanner;
 
-import util.ScannerUtil;
 
 // 구조체를 배열로 만드는 건 가능할까요?
 // 당연히 됩니다.
@@ -10,7 +9,7 @@ import util.ScannerUtil;
 // 데이터타입[] 배열이름 = new 데이터[크기]로 선언하여
 // 각 칸을 초기화하면 사용 가능하다
 
-public class Ex05StruckArray01 {
+public class StruckArray01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Student[] studentArray = new Student[5];
@@ -41,6 +40,7 @@ public class Ex05StruckArray01 {
         // 각 칸의 정보를 넣고
         // 또 다른 for문을 이용해서
         // 각 칸의 정보를 출력해보세요
+        /*
         for (int i = 0; i < studentArray.length; i++) {
             System.out.print("번호: ");
             studentArray[i].id = scanner.nextInt();
@@ -66,7 +66,7 @@ public class Ex05StruckArray01 {
             System.out.printf("국어: %03d점 영어: %03d점 수학: %03d점\n", 
                     korean, english, math);
             System.out.printf("총점: %03d점 평균: %.2f점\n", sum, average);
-        }
+        }*/
     }
 }
 

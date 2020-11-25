@@ -1,6 +1,5 @@
-package day06;
+package array;
 
-import util.ArrayUtil;
 
 // 배열의 동적할당
 // 배열의 동적할당이란?
@@ -33,7 +32,7 @@ import util.ArrayUtil;
 
 // 이렇게 크기가 자유로운 배열을 우리가 동적할당한다 라고 한다.
 
-public class Ex06DynamicAlloc {
+public class DynamicAlloc {
     public static void main(String[] args) {
         int[] array = new int[0];
         

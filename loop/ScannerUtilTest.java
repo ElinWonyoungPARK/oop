@@ -1,10 +1,10 @@
-package day04;
+package loop;
 
 import java.util.Scanner;
 
-import util.ScannerUtil;
 
-public class Ex10ScannerUtilTest {
+
+public class ScannerUtilTest {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("1. 곧장 nextLine() 실행하는 경우");

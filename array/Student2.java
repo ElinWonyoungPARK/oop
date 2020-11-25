@@ -1,8 +1,8 @@
-package day07;
+package array;
 
-import day06.Student;
 
-public class Ex02Student {
+
+public class Student2 {
     public static void main(String[] args) {
         // 객체선언은 다음과 같이 한다
         // 클래스이름 객체이름 = new 클래스이름();

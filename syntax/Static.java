@@ -1,4 +1,4 @@
-package day02;
+package syntax;
 // 자바에는 크게 3가지 메모리 영역이 있다.
 
 // 1. 스택: 변수가 선언되는 공간
@@ -28,7 +28,7 @@ package day02;
 
 import java.util.Scanner;
 
-public class Ex09Static {
+public class Static {
     static final int SIZE = 5;
 
     public static void main(String[] args) {
@@ -36,7 +36,7 @@ public class Ex09Static {
 
         System.out.print("이름: ");
         //scanner.nextInt();
-        Ex08BMI.main(args);
+        BMI.main(args);
 
         System.out.println("SIZE: " + SIZE);
 

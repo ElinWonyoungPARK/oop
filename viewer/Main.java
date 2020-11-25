@@ -25,7 +25,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		UserController userController = new UserController();
+		MemberController userController = new MemberController();
 		while(true) {
 			System.out.println("Menu: 1.회원가입 2.로그인 3.비번 수정"
 					+ " 4.회원탈퇴 5.아이디 존재 체크 6.마이페이지 7.회원목록 8.아이디찾기"

@@ -1,4 +1,4 @@
-package day05;
+package array;
 // 배열
 // 배열이란 똑같은 데이터타입을 지정한 크기만큼
 // 모아두어
@@ -8,7 +8,7 @@ package day05;
 // int 변수 10개가 모인 배열변수 1개를 만들면 편하지않을까?
 // 그리고 각각의 배열 0번, 배열 1번 ... 배열 9번 이렇게 지칭하면
 // 우리가 각각의 공간을 호출할 수 있다.
-public class Ex02Array {
+public class Array01 {
     public static void main(String[] args) {
         // 배열 선언하기
         // 데이터 타입[] 배열이름 = new 데이터타입[크기]

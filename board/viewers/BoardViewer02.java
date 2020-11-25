@@ -1,4 +1,4 @@
-package day08;
+package board;
 // 우리가 게시판에 글을 쓸때는
 // 글 번호가 자동으로 부여된다.
 // 또한 우리가 글을 10개를 스고
@@ -7,9 +7,12 @@ package day08;
 
 import java.util.Scanner;
 
-import day07.Board;
-import util.ArrayUtil;
-import util.ScannerUtil;
+class Board{
+    private String title, id, writer, content;
+    public void setTitle(string title){this.title=title;}
+    public String getTitle(){return title;}
+    public void setId(String id)
+}
 
 public class BoardViewer02 {
     private Scanner scanner;

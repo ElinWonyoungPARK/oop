@@ -1,14 +1,12 @@
-package day06;
+package array;
 
 import java.util.Scanner;
 
-import util.ArrayUtil;
-import util.ScannerUtil;
 
 // 동적할당을 이용하여
 // 우리가 원하는 만큼의 학생을 관리 가능한
 // 성적관리 프로그램
-public class Ex10GradeBook01 {
+public class GradeBook03 {
     private static int MAX_SIZE = 5;
 
     public static void main(String[] args) {

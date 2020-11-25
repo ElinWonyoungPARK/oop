@@ -8,19 +8,19 @@ import util.ScannerUtil;
 
 public class UserViewer {
     private Scanner scanner = new Scanner(System.in);
-    private UserController userController;
+    private MemberController userController;
 
     public UserViewer() {
         scanner = new Scanner(System.in);
-        userController = new UserController();
+        userController = new MemberController();
     }
 
     // 1. 메뉴 출력 메소드
 
-    public UserDTO showMenu() {
+    public TeacherDTO showMenu() {
 
         while (true) {
-            UserDTO logIn = new UserDTO();
+            TeacherDTO logIn = new TeacherDTO();
 
             String message = "1. 로그인 2. 회원가입 3. 종료";
             int userChoice = ScannerUtil.nextInt(scanner, message, 1, 3);
@@ -44,8 +44,8 @@ public class UserViewer {
         return null;
     }
 
-    private UserDTO logIn() {
-        UserDTO logIn = new UserDTO();
+    private TeacherDTO logIn() {
+        TeacherDTO logIn = new TeacherDTO();
 
         System.out.print("username: ");
         logIn.setUsername(ScannerUtil.nextLine(scanner));
@@ -70,7 +70,7 @@ public class UserViewer {
     }
 
     private void register() {
-        UserDTO u = new UserDTO();
+        TeacherDTO u = new TeacherDTO();
 
         System.out.print("username: ");
         u.setUsername(ScannerUtil.nextLine(scanner));

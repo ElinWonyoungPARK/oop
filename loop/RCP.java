@@ -1,4 +1,4 @@
-package day04;
+package loop;
 // 가위 바위 보 게임
 // 메뉴: 1. 플레이 2. 전적보기 3. 종료
 // 1. 플레이시에는
@@ -14,7 +14,7 @@ package day04;
 //    "아직 플레이한 기록이 없습니다" 가 출력되게 한다.
 import java.util.Random;
 import java.util.Scanner;
-public class Ex06RCP {
+public class RCP {
     final static int MAX = 3;
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

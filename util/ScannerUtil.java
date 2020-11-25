@@ -1,4 +1,4 @@
-package board.utils;
+package util;
 
 import java.util.Scanner;
 

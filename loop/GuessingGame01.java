@@ -1,12 +1,11 @@
-package day05;
+package loop;
 // 숫자 맞추기 게임을
 // 메소드로 분리해서 유지보수가 쉽게 만들어보자
 import java.util.Random;
 import java.util.Scanner;
 
-import util.ScannerUtil;
 
-public class Ex01GuessingGame {
+public class GuessingGame01 {
     private final static int MAX = 100;
     
     public static void main(String[] args) {

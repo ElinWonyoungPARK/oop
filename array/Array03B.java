@@ -1,13 +1,11 @@
-package day05;
+package array;
 
 import java.util.Scanner;
-
-import util.ScannerUtil;
 
 // Ex04Array03에서
 // 과목별로 배열을 만드는게 아니라
 // 시험별로 배열은 만들어서 컨트롤 하는 프로그램
-public class Ex05Array03B {
+public class Array03B {
     private final static int SIZE = 3;
     private final static int SCORE_MAX = 100;
     public static void main(String[] args) {

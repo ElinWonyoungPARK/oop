@@ -1,4 +1,4 @@
-package day04;
+package loop;
 //사용자로부터 번호 이름 국어 영어 수학 점수를 입력받아서
 //번호: ##번 이름: ###
 //국어: 0##점 영어: 0##점 수학: 0##점
@@ -13,7 +13,7 @@ package day04;
 
 import java.util.Scanner;
 
-public class Ex04GradeBook01 {
+public class GradeBook01 {
     static final int SUBJECT_SIZE = 3;
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

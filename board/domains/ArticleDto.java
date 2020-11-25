@@ -1,20 +1,27 @@
-package dto;
+package board.domains;
 
 import java.util.Calendar;
 
-public class BoardDTO {
-    private int id;
+public class ArticleDto {
+    private int artId;
     private int writerId;
     private String title;
     private String content;
     private Calendar writtenDate;
-    private Calendar updateDate;
-    
-    public int getId() {
-        return id;
+    private Calendar updatedDate;
+
+    public ArticleDto(){}
+    public ArticleDto(int writerId,String title,String content){
+        this.writerId = writerId;
+        this.title = title;
+        this.content = content;
     }
-    public void setId(int id) {
-        this.id = id;
+
+    public int getArtId() {
+        return artId;
+    }
+    public void setArtId(int artId) {
+        this.artId = artId;
     }
     public int getWriterId() {
         return writerId;
@@ -40,37 +47,10 @@ public class BoardDTO {
     public void setWrittenDate(Calendar writtenDate) {
         this.writtenDate = writtenDate;
     }
-    public Calendar getUpdateDate() {
-        return updateDate;
+    public Calendar getUpdatedDate() {
+        return updatedDate;
     }
-    public void setUpdateDate(Calendar updateDate) {
-        this.updateDate = updateDate;
+    public void setUpdatedDate(Calendar updatedDate) {
+        this.updatedDate = updatedDate;
     }
-    
-    public boolean equals(Object o) {
-        if(o instanceof BoardDTO) {
-            BoardDTO b = (BoardDTO)o;
-            if(id == b.id) {
-                return true;
-            }
-        }
-        
-        
-        return false;
-    }
-    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

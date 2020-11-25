@@ -1,4 +1,4 @@
-package day08;
+package util;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -22,7 +22,7 @@ import util.ScannerUtil;
 // 그것을 기반으로 해서 여러가지 값으로 보여주거나
 // 아니면 우리가 DateFormat이란 것을 사용하여
 // 우리가 원하는 양식으로 출력해 줄 수도 있다!
-public class Ex04Calendar {
+public class MyCalendar {
     public static void main(String[] args) {
         // Calendar 클래스의 초기화는 다음과 같이 한다.
         Calendar cal = Calendar.getInstance();

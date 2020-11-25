@@ -1,13 +1,12 @@
-package day04;
+package loop;
 
 import java.util.Scanner;
 
-import util.ScannerUtil;
 
 // 메인 메소드가 모든걸 담담하지않고
 // 개별 메소드가 한가지 담당만 하는 버젼
 
-public class Ex12GradeBook04 {
+public class GradeBook04 {
     static final int SUBJECT_SIZE = 3;
     
     // 무한루프를 돌면서 메뉴를 출력하는 메소드

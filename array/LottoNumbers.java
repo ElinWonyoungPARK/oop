@@ -1,12 +1,11 @@
-package day05;
+package array;
 
 import java.util.Random;
 
-import util.ArrayUtil;
 
 // 로또 번호 생성기
 
-public class Ex08LottoNumbers {
+public class LottoNumbers {
     private static final int SIZE = 6;
     private static final int MAX = 45;
     public static void main(String[] args) {
